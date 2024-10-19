@@ -1,0 +1,63 @@
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      float: left;
+      width: 200px;
+      margin: 20px;
+    }
+
+    p {
+      text-align: justify;
+      margin: 40px;
+    }
+
+    .navtop {
+      background-color: #0000002d;
+      height: 50px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .navtop div {
+      display: flex;
+      margin: 0 auto;
+      height: 100%;
+
+    }
+
+    .navtop div h1,
+    .navtop div a {
+      display: inline-flex;
+      align-items: center;
+    }
+
+
+    .navtop div h1 {
+      flex: 1;
+      font-size: 24px;
+      padding: 0;
+      margin: 0;
+      font-weight: normal;
+    }
+
+    .navtop div a {
+      padding: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navtop div a i {
+      margin: 9px;
+    }
+
+    .navtop div a:hover {
+      color: rgb(104, 82, 113);
+    }
+
+    img {
+      width: 230px;
+      height: 190px;
+    }
